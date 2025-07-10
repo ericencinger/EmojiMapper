@@ -1,0 +1,4 @@
+flask>=3.0
+flask-socketio>=5.3  
+eventlet>=0.35          
+jetson-inference>=0.6.1 
