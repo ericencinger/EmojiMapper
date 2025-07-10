@@ -1,6 +1,6 @@
 # 📸 EmojiMapper
 
-A **tiny (~150 LOC) Jetson demo** that turns real-time object detections into an animated emoji HUD-style overlay, streamed to your browser with Flask + Socket.IO.
+A **tiny (~100 LOC) Jetson demo** that turns real-time object detections into an animated emoji HUD-style overlay, streamed to your browser with Flask + Socket.IO.
 
 <p align="center">
   <em>SSD-Mobilenet-V2 → emoji grid → browser — 100 % on-device, no cloud needed.</em><br/>
