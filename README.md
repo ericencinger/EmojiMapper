@@ -13,8 +13,8 @@ A **tiny (~100 LOC) Jetson demo** that turns real-time object detections into an
 1. Opens a camera (`/dev/video0` by default).  
 2. Runs **`jetson.inference.detectNet`** with the built-in **SSD-Mobilenet-V2** model.  
 3. Maps each detected class to an emoji (see `EMOJI` in `emojimapping.py`).  
-4. Streams detections via WebSockets to a minimalist HTML page that  
-   * positions the emoji over the object’s centre (mirrored x-axis for “selfie” view),  
+4. Streams detections via WebSockets to a HTML page that  
+   * positions the emoji over the object’s centre,
    * scales emoji size to bounding-box area,  
    * updates ~10 fps with a lightweight CSS transition.
 
