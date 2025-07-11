@@ -3,7 +3,7 @@
 A **tiny (~100 LOC) Jetson demo** that turns real-time object detections into an animated emoji HUD-style overlay, streamed to your browser with Flask + Socket.IO.
 
 <p align="center">
-  <em>SSD-Mobilenet-V2 → emoji grid → browser — 100 % on-device, no cloud needed.</em><br/>
+  <em>On-device only – no cloud or API calls required.</em><br/>
 </p>
 
 ---
@@ -18,9 +18,15 @@ A **tiny (~100 LOC) Jetson demo** that turns real-time object detections into an
    * scales emoji size to bounding-box area,  
    * updates ~10 fps with a lightweight CSS transition.
 
-Result: a playful “emoji radar” you can open from any device on the same network.
+Result: a playful “emoji radar” you can open from any browser on the same network.
 
 ---
+## 🧪 Tested On
+
+- Jetson Orin Nano (JetPack 6.0)
+- Logitech USB webcam (/dev/video0)
+- Python 3.10
+- Chrome & Firefox (desktop and mobile)
 
 ## 🚀 Quick start
 
@@ -42,4 +48,7 @@ Run!
 ```bash
 python3 emoji_mapper.py
 ```
-
+Once running, open your browser and go to:
+```bash
+http://<your-jetson-ip>:5000
+```
