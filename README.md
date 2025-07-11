@@ -32,7 +32,7 @@ sudo apt install python3-pip -y
 Grab the repo
 ```bash
 git clone https://github.com/ericencinger/EmojiMapper.git
-cd EmojiMapper/src
+cd EmojiMapper
 ```
 Install runtime deps
 ```bash
@@ -40,6 +40,6 @@ pip3 install -r requirements.txt
 ```
 Run!
 ```bash
-python3 emojimapping.py
+python3 emoji_mapper.py
 ```
 
