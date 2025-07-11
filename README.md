@@ -24,25 +24,21 @@ Result: a playful “emoji radar” you can open from any device on the same net
 
 ## 🚀 Quick start
 
+On the Jetson (JetPack 6+)
 ```bash
-# on the Jetson (JetPack 6+)
 sudo apt update
 sudo apt install python3-pip -y
 ```
-runtime deps
-```bash
-pip3 install flask flask-socketio eventlet jetson-inference
-```
-grab the repo
+Grab the repo
 ```bash
 git clone https://github.com/ericencinger/EmojiMapper.git
 cd EmojiMapper/src
 ```
-install runtime deps
+Install runtime deps
 ```bash
 pip3 install -r requirements.txt
 ```
-run!
+Run!
 ```bash
 python3 emojimapping.py
 ```
