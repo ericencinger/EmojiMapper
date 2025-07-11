@@ -15,10 +15,6 @@ MODEL ="ssd-mobilenet-v2"
 THR   =0.5
 LAB   ="labels.txt"
 
-# quiet logs
-os.environ["GST_DEBUG"]="0"
-sys.argv+=["--gstDebugLevel=0","--trtEngineVerbose=false"]
-
 # html ui
 HTML='''
 <!DOCTYPE html><html><head><meta charset="utf-8">
