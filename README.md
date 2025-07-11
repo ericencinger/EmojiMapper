@@ -52,3 +52,4 @@ Once running, open your browser and go to:
 ```bash
 http://<your-jetson-ip>:5000
 ```
+*Replace <your-jetson-ip> with the ip of your Nvidia Jetson*
